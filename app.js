@@ -1,7 +1,7 @@
 const app = express();
 const mongoose = require('mongoose');
 
-const dev_db_url = 'mongodb+srv://dbUser:JRw:7ax<En[7RE3L@cluster0-ozywb.azure.mongodb.net/local_library?retryWrites=true&w=majority'
+const dev_db_url = 'mongodb+srv://dbUser:<password>@cluster0-ozywb.azure.mongodb.net/local_library?retryWrites=true&w=majority'
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
