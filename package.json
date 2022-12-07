@@ -4,7 +4,7 @@
   "description": "1. What does ORM stand for? What does ODM stand for?\r ORM - Object Relational Model\r ODM - Object Data Model\r 2. Based on the title of this part of the tutorial, what ORM/ODM will we be using?  What are some popular alternatives?\r We are using Mongoose. Some alterniative are waterline and bookself.\r 3. How many entities are there?  What are the relationships between entities? \r There are 4 entities.  A book must have one author. A author can have many books. A book can have many genres or none. A genre can have mant books or none. \r There has to be an instance of a book but there can be many.\r 4. What folder should this command be run in?\r mod5Data file\r 5. What version are you using of mongoose?\r 5.9.7\r 6. How many files will you have? \r 4\r 7. Is the name of the model file singular or plural? \r plural\r 8. What dependency are we requiring? \r express\r 9. What is the development URL to your database?\r mongodb+srv://dbUser:JRw:7ax<En[7RE3L@cluster0-ozywb.azure.mongodb.net/local_library?retryWrites=true&w=majority",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongoose": "^5.9.7"
   },
   "devDependencies": {},
